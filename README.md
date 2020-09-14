@@ -15,6 +15,12 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# build docker image
+docker build -t blades-in-the-dark .
+
+# run docker image
+$ docker run -it -p 3000:3000 blades-in-the-dark
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
